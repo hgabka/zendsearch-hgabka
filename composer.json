@@ -8,13 +8,7 @@
         "lucene"
     ],
     "homepage": "http://packages.zendframework.com/",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:hgabka/ZendSearch.git"
-        }
-    ],
-  "autoload": {
+    "autoload": {
         "psr-0": {
             "ZendSearch": "library/"
         }
