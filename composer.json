@@ -1,15 +1,8 @@
 {
-    "name": "hgabka/zendsearch",
+    "name": "zendframework/zendsearch",
     "description": "a general purpose text search engine written entirely in PHP 5",
     "type": "library",
-    "license": "MIT",
-    "authors": [
-      {
-        "name": "Gabe",
-        "email": "hgabka@gmail.com",
-        "homepage": "http://hgabka.eu"
-      }
-    ],    
+    "license": "BSD-3-Clause",
     "keywords": [
         "zf2",
         "lucene"
@@ -20,13 +13,14 @@
             "ZendSearch": "library/"
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "zendframework/zend-stdlib": "2.*"
-    },
-    "extra": {
-      "branch-alias": {
-        "dev-master": "1.0-dev"
-      }
-  }
+    }
 }
